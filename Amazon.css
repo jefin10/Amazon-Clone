@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+#navbar{
+
+    background-color: #0F1111;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+#nav-logo{
+    height:50px;
+    width: 100px;
+}
+#logo{
+    
+    background-image: url(amazonlogo.png);
+    
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.nborder:hover{
+    border: 1.2px white solid;
+}
+#d-add{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+#d-ind{
+    margin-left: 15px;
+    display: flex;
+    color: white;
+    font-size: 1rem;
+}
+#nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 840px;
+    height:40px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius:5px;
+    border:none;
+}
+#search-input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+#search-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:5px;
+    color: #0F1111;
+}
+#span-element{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.7rem;
+    font-weight: 700;;
+}
+#nav-search :hover{
+    border: 2px solid orange;
+}
+#nav-cart i{
+    font-size: 35px;   
+}
+#nav-cart{
+    font-size: 0.85rem;
+}
+.panel{
+    height: 35px;
+    background-color: #222F3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.panel p{
+    display: inline-block;
+}
+
+#options{
+    width:85%;
+    font-size: 0.85rem;
+    
+}
+.optionsspecific{
+    margin-left: 10px;
+}
+#panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+#language{
+    display: flex;
+    justify-content: flex-start;
+    height: larger;
+    width: larger;
+}
+#flagcountry{
+    background-image: url("usa.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 35px;
+    
+
+}
+#backad{
+    
+    background-image: url("backad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    position: relative;
+    
+}
+.backad-message{
+    color: black;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 0.9rem;
+    width: 97%;
+    margin-bottom: 250px;
+    
+    
+}
+.backad-message a{
+    color: #222F3d;
+    font-style: normal;
+    
+}
+#box{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.01);
+    position: absolute;
+    overflow: hidden;
+    
+}
